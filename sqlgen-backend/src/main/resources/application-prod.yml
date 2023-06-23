@@ -1,0 +1,16 @@
+spring:
+  # 数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sqlgen
+    username: root
+    password: 123456
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
+
+mybatis-plus:
+  configuration:
+    # 生产环境关闭日志
+    log-impl: ''
